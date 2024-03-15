@@ -1,0 +1,66 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #262626;
+  width: 100vw;
+  height: 100vh;
+  row-gap: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  height: 10em;
+  transition: filter 300ms;
+  will-change: filter;
+  cursor: pointer;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ffffff);
+}
+
+.description {
+  font-size: 1.3em;
+  color: #ffffff;
+  font-style: italic;
+  text-align: justify;
+}
+
+.title_div h1 {
+  font-size: 3.2em;
+}
+
+.description_div {
+  width: 50%;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 9em;
+  }
+
+  .title_div h1 {
+    font-size: 2.5em;
+  }
+
+  .description_div {
+    width: 80%;
+  }
+
+  .description {
+    font-size: 1.2em;
+  }
+}
