@@ -36,5 +36,14 @@
         <p style="margin: 0; font-size: 10px">Developer / Sócia / Sub-Designer</p>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/Naehaerys">
+        <img src="https://avatars.githubusercontent.com/u/163610790?v=4" width="100px;" alt="Leticia Brunello Profile Picture"/><br>
+        <sub>
+          <b><span style="font-size: 14px;">Leticia Brunello</span></b>
+        </sub><br>
+        <p style="margin: 0; font-size: 10px">Controle de qualidade</p>
+      </a>
+    </td>
   </tr>
 </table>
